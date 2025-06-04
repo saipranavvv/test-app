@@ -3,7 +3,8 @@ import requests
 import json
 
 from dataclasses import dataclass
-
+def hello:
+     print("test for lint")
 def chat_with_gemma(prompt):
     """Sends a prompt to the locally running Gemma model and returns the response."""
 
